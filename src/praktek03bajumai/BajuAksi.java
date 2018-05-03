@@ -15,5 +15,14 @@ public class BajuAksi {
         System.out.println(b.getWarna());
         System.out.print("Harganya \t: ");
         System.out.println(b.getHarga());
+        
+        Tas t = new Tas();
+        t.setMerek("Hermes");
+        t.setWarna("Coklat");
+        t.setHarga(4900);
+        t.setJenisTas("Listrik");
+        t.cetakInfo();
+        System.out.println("Jenis \t:"+t.getJenisTas());
+        t.throttle();
     }
 }
