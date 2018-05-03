@@ -8,5 +8,12 @@ public class BajuAksi {
         b.setHarga(7900);
         
         b.cetakInfo();
+        
+        System.out.print("Mereknya \t: ");
+        System.out.println(b.getMerek());
+        System.out.print("Warnanya \t: ");
+        System.out.println(b.getWarna());
+        System.out.print("Harganya \t: ");
+        System.out.println(b.getHarga());
     }
 }
