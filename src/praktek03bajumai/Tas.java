@@ -5,4 +5,14 @@ public class Tas extends Baju{
     void throttle(){
         System.out.println("BLING BLING....");
     }
+
+    public String getJenisTas() {
+        return jenisTas;
+    }
+
+    public void setJenisTas(String jenisTas) {
+        this.jenisTas = jenisTas;
+    }
+    
+    
 }
