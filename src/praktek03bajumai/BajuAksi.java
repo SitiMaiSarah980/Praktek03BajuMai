@@ -20,7 +20,7 @@ public class BajuAksi {
         t.setMerek("Hermes");
         t.setWarna("Coklat");
         t.setHarga(4900);
-        t.setJenisTas("Listrik");
+        t.setJenisTas("Ransel");
         t.cetakInfo();
         System.out.println("Jenis \t:"+t.getJenisTas());
         t.throttle();
